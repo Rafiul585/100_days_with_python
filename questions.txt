@@ -1,0 +1,58 @@
+''' Q: 1 - You have to find 49 from this list. If 49 exists on the list, then count the number.
+Sample: [0, 1, 4, 'apple', 9, 16, 25, 'apple', 36, 81, 49, 'banana', 36, 49, 64]
+Expected output: 2 '''
+# Answer Here: 
+
+
+
+
+
+''' Q: 2 - find the second largest number of the given list.
+Sample: [0, 1, 4, 'apple', 9, 16, 25, 'apple', 36, 81, 49, 'banana', 36, 49, 64]
+Expected output: 64 '''
+# Answer Here: 
+
+
+
+
+
+''' Q: 3 - Remove apple from the list
+Sample: [0, 1, 4, 'apple', 9, 16, 25, 'apple', 36, 81, 49, 'banana', 36, 49, 64]
+Expected output: [0, 1, 4, 9, 16, 25, 36, 81, 49, 'banana', 36, 49, 64] '''
+# Answer Here: 
+
+
+
+
+
+''' Q: 4 - Convert list to list of dictionaries from those given lists.
+Sample: ["Black", "Red", "Maroon", "Yellow"], ["#000000", "#FF0000", "#800000", "#FFFF00"]
+Expected Output: [
+    {'color_name': 'Black', 'color_code': '#000000'},
+    {'color_name': 'Red', 'color_code': '#FF0000'},
+    {'color_name': 'Maroon', 'color_code': '#800000'},
+    {'color_name': 'Yellow', 'color_code': '#FFFF00'}
+    ] '''
+# Answer Here: 
+
+
+
+
+
+''' Q: 5 - Take key and value input from user, and add this key and value to a dictionary.
+Sample Dictionary : {0: 10, 1: 20}
+after that if the value is even then make it odd or if the value is odd then print the value as like as 
+Expected Output:{0: 10, 1: 20, 3: 31} '''
+# Answer Here: 
+
+
+
+
+
+''' Q: 6 - Create a class name, Teacher. Teacher have some properties name, designation, 
+month salary, and department. In every year he will get 20% increment. 
+After five year how much salary he will get at the end of the year. 
+Expected Output: ahter_five years 298598.4 if he gets 10000 tk per month'''
+# Answer Here: 
+
+
