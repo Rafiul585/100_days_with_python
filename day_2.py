@@ -190,3 +190,6 @@ Expected Output: 51 """
 
 """ Q13: - Print tableName 
 Expected Output: Table-3 """
+
+""" Q14: - Print all kitchen name 
+Expected Output: Arabian, Bangla, Bengali Food, Beverage, Chinese, Common, etc. """
