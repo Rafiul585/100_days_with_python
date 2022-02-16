@@ -154,45 +154,104 @@ sample_data = {
 
 """ Q1: - Print status.
 Expected Output: success """
+# Answer:
+# print(sample_data['status'])
 
 """ Q2: - Print status code
 Expected Output: 1 """
+# Answer:
+# print(sample_data['status_code'])
 
 """ Q3: - Print massage 
 Expected Output: Printing information. """
+# Answer:
+# print(sample_data['message'])
 
 """ Q4: - Print title 
 Expected Output: Restaurant Management System """
+# Answer:
+# print(sample_data['data']['orderinfo'][0]['title'])
+# for i in sample_data['data']['orderinfo']:
+#     print(i["title"])
 
 """ Q5: - Print token_no 
 Expected Output: 12 """
+# Answer:
+# print(sample_data['data']['orderinfo'][0]['token_no'])
+# for i in sample_data['data']['orderinfo']:
+#     print(i["token_no"])
+
 
 """ Q6: - Print ordertime 
 Expected Output: 06:43:30 PM """
+# Answer:
+# print(sample_data['data']['orderinfo'][0]['ordertime'])
+# for i in sample_data['data']['orderinfo']:
+#     print(i["ordertime"])
+
 
 """ Q7: - Print orderdate 
 Expected Output: 14/02/2022 """
+# Answer:
+# print(sample_data['data']['orderinfo'][0]['orderdate'])
+# for i in sample_data['data']['orderinfo']:
+#     print(i["orderdate"])
+
 
 """ Q8: - Print order_id 
 Expected Output: 271 """
+# Answer:
+# print(sample_data['data']['orderinfo'][0]['order_id'])
+# for i in sample_data['data']['orderinfo']:
+#     print(i["order_id"])
+
 
 """ Q9: - Print customerName 
 Expected Output: Walkin """
+# Answer:
+# print(sample_data['data']['orderinfo'][0]['customerName'])
+# for i in sample_data['data']['orderinfo']:
+#     print(i["customerName"])
+
 
 """ Q10: - Print customerPhone 
 Expected Output: 8801717426371 """
+# Answer:
+# print(sample_data['data']['orderinfo'][0]['customerPhone'])
+# for i in sample_data['data']['orderinfo']:
+#     print(i["customerPhone"])
+
 
 """ Q11: - Print waiter 
 Expected Output: Pravin Meshram """
+# Answer:
+# print(sample_data['data']['orderinfo'][0]['waiter'])
+# for i in sample_data['data']['orderinfo']:
+#     print(i["waiter"])
 
 """ Q12: - Print tableno 
 Expected Output: 51 """
+# Answer:
+# print(sample_data['data']['orderinfo'][0]['tableno'])
+# for i in sample_data['data']['orderinfo']:
+#     print(i["tableno"])
+
 
 """ Q13: - Print tableName 
 Expected Output: Table-3 """
+# Answer:
+# print(sample_data['data']['orderinfo'][0]['tableName'])
+# for i in sample_data['data']['orderinfo']:
+#     print(i["tableName"])
+
 
 """ Q14: - Print all kitchen name 
 Expected Output: Arabian, Bangla, Bengali Food, Beverage, Chinese, Common, etc. """
+# Answer:
+# print(sample_data['data']['orderinfo'][0]['kitcheninfo'])
+for i in sample_data['data']['orderinfo']:
+    for j in (i["kitcheninfo"]):
+        print(j['kitchenName'])
 
 """ Q15: - If isitemexist = 1 
 then print itemName, variantName, qty, notes. """
