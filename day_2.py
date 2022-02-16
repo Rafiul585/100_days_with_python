@@ -248,10 +248,10 @@ Expected Output: Table-3 """
 """ Q14: - Print all kitchen name 
 Expected Output: Arabian, Bangla, Bengali Food, Beverage, Chinese, Common, etc. """
 # Answer:
-# print(sample_data['data']['orderinfo'][0]['kitcheninfo'])
-for i in sample_data['data']['orderinfo']:
-    for j in (i["kitcheninfo"]):
-        print(j['kitchenName'])
+# print(sample_data['data']['orderinfo'][0]['kitcheninfo'][0]['kitchenName'])
+# for i in sample_data['data']['orderinfo']:
+#    for j in (i["kitcheninfo"]):
+#        print(j['kitchenName'])
 
 """ Q15: - If isitemexist = 1 
 then print itemName, variantName, qty, notes. """
