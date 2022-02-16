@@ -193,3 +193,9 @@ Expected Output: Table-3 """
 
 """ Q14: - Print all kitchen name 
 Expected Output: Arabian, Bangla, Bengali Food, Beverage, Chinese, Common, etc. """
+
+""" Q15: - If isitemexist = 1 
+then print itemName, variantName, qty, notes. """
+
+""" Q16: - If isaddons = 1 
+then print all add_onsName and add_onsqty. """
