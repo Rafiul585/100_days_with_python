@@ -199,3 +199,6 @@ then print itemName, variantName, qty, notes. """
 
 """ Q16: - If isaddons = 1 
 then print all add_onsName and add_onsqty. """
+
+""" Q17: - Print all "addonsinfo" length 
+Expected Output: 1, 2 """
